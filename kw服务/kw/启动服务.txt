@@ -1,0 +1,11 @@
+1.安装nodejs
+
+
+2.启动项目
+	在项目目录下 shift+鼠标右键
+	点击代开powershell窗口
+	node music
+	
+	http://localhost:9090 本地服务地址
+
+	ctrl+c 终止服务

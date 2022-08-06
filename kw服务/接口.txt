@@ -1,0 +1,32 @@
+接口：
+    热搜词接口
+    http://localhost:9090/mobile/v1/search/hotword
+    搜索接口
+    http://localhost:9090/mobile/v1/search/all?key=周杰伦
+    搜索提示 模糊查询
+    http://localhost:9090/mobile/v1/search/tip?key=zjl
+    音乐搜索接口
+    http://localhost:9090/mobile/v1/search/music?key=周杰伦&pn=2
+    音乐信息和歌词接口
+    http://localhost:9090/mobile/v1/music/info/215621849
+    mp3播放地址
+    http://localhost:9090/music/src/440616?format=mp3
+
+
+
+let arr =
+    [   "http://localhost:9090/api/www/rcm/index/playlist?id=rcm&pn=1&rn=5&httpsStatus=1&reqId=6a8081f0-e40c-11ec-a95c-797c9dc738d6",
+        "http://localhost:9090/api/www/classify/playlist/getTagPlayList?id=1848&pn=1&rn=5&httpsStatus=1&reqId=b8942c40-e414-11ec-a999-0b9c58bde6bc",
+        "http://localhost:9090/api/www/classify/playlist/getTagPlayList?id=621&pn=1&rn=5&httpsStatus=1&reqId=c2743fc0-e414-11ec-a999-0b9c58bde6bc",
+        "http://localhost:9090/api/www/classify/playlist/getTagPlayList?id=146&pn=1&rn=5&httpsStatus=1&reqId=e5e4aad0-e414-11ec-a999-0b9c58bde6bc",
+        "http://localhost:9090/api/www/classify/playlist/getTagPlayList?id=35&pn=1&rn=5&httpsStatus=1&reqId=f491afb0-e414-11ec-a999-0b9c58bde6bc"
+    ]
+
+
+
+let singerRecommendedArr = [
+        'http://localhost:9090/api/www/artist/artistInfo?category=11&pn=1&rn=6&httpsStatus=1&reqId=1f7b2ad0-e48d-11ec-8e66-390f47003596',
+        'http://localhost:9090/api/www/artist/artistInfo?category=13&pn=1&rn=6&httpsStatus=1&reqId=ff522d20-e48d-11ec-8e66-390f47003596',
+        'http://localhost:9090/api/www/artist/artistInfo?category=12&pn=1&rn=6&httpsStatus=1&reqId=061919c0-e48e-11ec-8e66-390f47003596',
+        'http://localhost:9090/api/www/artist/artistInfo?category=16&pn=1&rn=6&httpsStatus=1&reqId=0c8ba4d0-e48e-11ec-8e66-390f47003596'
+    ]

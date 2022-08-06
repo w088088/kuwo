@@ -1,0 +1,13 @@
+接口：
+    热搜词接口
+    http://localhost:9090/mobile/v1/search/hotword
+    搜索接口
+    http://localhost:9090/mobile/v1/search/all?key=周杰伦
+    搜索提示 模糊查询
+    http://localhost:9090/mobile/v1/search/tip?key=zjl
+    音乐搜索接口
+    http://localhost:9090/mobile/v1/search/music?key=周杰伦&pn=2
+    音乐信息和歌词接口
+    http://localhost:9090/mobile/v1/music/info/215621849
+    mp3播放地址
+    http://localhost:9090/music/src/440616?format=mp3

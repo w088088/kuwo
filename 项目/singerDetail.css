@@ -1,0 +1,284 @@
+.singer-detail {
+    height: 314px;
+    background-color: #F5F5F5;
+}
+
+.singerInfo {
+    display: flex;
+    padding: 42px 0;
+}
+
+.singerInfo .img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.singerInfo .img img {
+    width: 100%;
+}
+
+.detailInfo {
+    width: 650px;
+    margin-left: 42px;
+}
+
+.detailInfo h3 {
+    margin-top: 20px;
+    height: 42px;
+    line-height: 42px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.detailInfo .info {
+    color: #999;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 16px 0;
+}
+
+.detailInfo .info span {
+    margin-right: 40px;
+}
+
+.detailInfo .itemInfo {
+    color: #666;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.detailInfo .itemInfo span {
+    margin-right: 15px;
+}
+
+.detailInfo .playBtn {
+    margin-top: 32px;
+    display: flex;
+}
+
+.detailInfo .playBtn button:nth-child(1) {
+    display: inline-block;
+    background: #ffe12c;
+    color: #333;
+    padding: 0 30px;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 22px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.detailInfo .playBtn button:nth-child(2) {
+    padding: 0 30px;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 22px;
+    border: none;
+    font-size: 16px;
+    background: #ebebeb;
+    cursor: pointer;
+    color: #666;
+}
+
+.detailInfo .playBtn button:nth-child(3) {
+    padding: 0 30px;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 22px;
+    border: none;
+    font-size: 16px;
+    background: #ebebeb;
+    cursor: pointer;
+    color: #666;
+}
+
+.main {
+    display: flex;
+    margin-top: 60px;
+}
+
+.singer-left {
+    width: 1065px;
+}
+
+.singger-detail-btn {
+    display: flex;
+}
+
+.singger-detail-btn li {
+    font-size: 22px;
+    line-height: 30px;
+    margin-right: 46px;
+    font-weight: 300;
+    color: #333;
+    cursor: pointer;
+}
+
+.iconfonts {
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+}
+
+.iconfonts i {
+    width: 72px;
+    height: 72px;
+    display: inline-block;
+    width: 72px;
+    font-size: 38px;
+    color: #fff;
+    text-align: center;
+    line-height: 72px;
+}
+
+.iconfonts i:nth-child(1) {
+    background-color: #3998F3;
+}
+
+.iconfonts i:nth-child(2) {
+    background-color: #13BA82;
+}
+
+.iconfonts i:nth-child(3) {
+    background-color: #666666;
+}
+
+.singer-right {
+    margin-left: 50px;
+}
+
+.singer-right p {
+    margin-top: 11px;
+    margin-bottom: 24px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #999;
+}
+
+.singer-detail-list {
+    margin-top: 24px;
+    overflow: hidden;
+}
+
+.singer-detail-list li {
+    height: 70px;
+    line-height: 70px;
+
+}
+
+.singer-detail-list li:nth-child(1) {
+    height: 46px;
+    line-height: 46px;
+    background-color: #FAFAFA;
+}
+
+.singer-detail-list li p {
+    display: inline-block;
+}
+
+.singer-detail-list li p span {
+    display: inline-block;
+}
+
+.singer-detail-list li p:nth-child(1) {
+    width: 180px;
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.singer-detail-list li p:nth-child(2) {
+    width: 445px;
+    font-size: 14px;
+}
+
+.singer-detail-list li p:nth-child(3) {
+    width: 340px;
+    font-size: 14px;
+}
+
+.singer-detail-list li p:nth-child(4) {
+    width: 40px;
+    font-size: 14px;
+}
+
+.singer-detail-list li img {
+    width: 54px;
+    margin-left: 38px;
+    vertical-align: middle;
+    margin-right: 0;
+}
+
+
+#singerDetailList .albums {
+    width: 20.63%;
+    height: 312px;
+    float: left;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+#singerDetailList .albums img {
+    width: 220px;
+    margin-left: 0px;
+}
+
+.singer-detail-list li:nth-child(2n+1) {
+    background-color: #FAFAFA;
+}
+
+.singer-detail-list li:hover {
+    background-color: #F5F5F5;
+}
+
+.singer-detail-list .albums>p>span {
+    display: block;
+    width: 220px;
+    line-height: 16px;
+    margin: 15px 0;
+}
+
+.singer-detail-list .albums>p>span:nth-child(1) {
+    font-size: 18px;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.singer-detail-list .albums>p>span:nth-child(2) {
+    color: #999;
+    font-weight: 300;
+    margin-top: 11px;
+    margin-bottom: 26px;
+    cursor: pointer;
+}
+
+.detail-rid,
+.detail-albumid {
+    cursor: pointer;
+}
+
+.singer-detail-list .albums>p>span:nth-child(1):hover {
+    font-weight: 600;
+}
+
+#singerDetailList .mv {
+    width: 20.63%;
+    height: 207.5px;
+    float: left;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+#singerDetailList .mv img {
+    width: 220px;
+    height: 134px;
+}

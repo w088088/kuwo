@@ -1,0 +1,60 @@
+.hot {
+    height: 28px;
+    margin-top: 30px;
+}
+
+.hot span,
+.n span {
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.hot-active {
+    background-color: #FFE443;
+    font-weight: 600;
+}
+
+.n {
+    margin-top: 20px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+.list li {
+    margin-right: -1.2%;
+    width: 15.5%;
+    padding-right: 2%;
+    cursor: pointer;
+}
+
+.list li>div {
+    width: 189px;
+    text-align: center;
+}
+
+.list li>div>img {
+    width: 189px;
+    height: 189px;
+    border-radius: 50%;
+}
+
+.list li p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.list .small img {
+    width: 70px;
+    height: 70px;
+}

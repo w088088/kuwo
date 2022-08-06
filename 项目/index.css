@@ -1,0 +1,275 @@
+.four-btns {
+    height: 60px;
+    background: rgba(0, 0, 0, .15);
+    color: #FFFFFF;
+    vertical-align: middle;
+    margin-top: -60px;
+    z-index: 999;
+    backdrop-filter: blur(5px)
+}
+
+.four-btns ul {
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-windows,
+.icon-anzhuo,
+.icon-pingguo,
+.icon-pc {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.recommended {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 28px;
+}
+
+.recommended h3 {
+    width: 140px;
+    margin-right: 40px;
+    font-size: 28px;
+}
+
+.recommended ul {
+    width: 1400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.recommended ul li {
+    margin-left: 34px;
+}
+
+.recommended ul li a {
+    font-weight: 300;
+    color: #333;
+}
+
+.recommended-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended-list li {
+    width: 265px;
+    cursor: pointer;
+}
+
+.recommended-list li div {
+    overflow: hidden;
+}
+
+.recommended-list li img:hover {
+    transform: scale(1.1);
+}
+
+.recommended-list li img {
+    width: 265px;
+    height: 265px;
+    transition: all .3s;
+}
+
+.recommended-list p {
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ranking {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 70px;
+    margin-bottom: 28px;
+}
+
+.ranking h3 {
+    margin-right: 40px;
+    font-size: 28px;
+}
+
+.ranking a {
+    color: #999;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.ranking-wrap {
+    height: 520px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ranking-wrap .ranking-item {
+    width: 18.85%;
+    box-shadow: 0 0 30px 0 rgb(65 67 70 / 8%);
+}
+
+.item-top {
+    width: 100%;
+    height: 145px;
+    background: url(https://h5static.kuwo.cn/upload/image/d8faf807ce667092ef29f8d62237bfbf3a1f127a6370664705722a67c8f9e23b.png) center center no-repeat;
+    background-size: 150px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.item-top img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.item-bottom li {
+    display: flex;
+    height: 46px;
+    font-size: 14px;
+    margin: 25px;
+    color: #333;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.item-bottom p:hover {
+    font-weight: 600;
+}
+
+.item-bottom li p:nth-child(2) {
+    width: 180px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.item-bottom img {
+    height: 33px;
+}
+
+.songer-list {
+    height: 40px;
+    margin-top: 70px;
+    margin-bottom: 28px;
+    display: flex;
+}
+
+.songer-list h3 {
+    margin-right: 30px;
+    font-size: 28px;
+}
+
+.songer-list ul {
+    display: flex;
+    align-items: flex-end;
+}
+
+.songer-list ul li {
+    margin-right: 34px;
+}
+
+.songer-list ul li a {
+    font-weight: 300;
+    color: #333;
+    font-size: 14px;
+}
+
+.songer-wrap img {
+    width: 182px;
+    height: 182px;
+    border-radius: 50%;
+}
+
+.songer-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.songer-wrap li {
+    text-align: center;
+    cursor: pointer;
+}
+
+.wrap {
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgs {
+    font-size: 0;
+    transition: all .5s;
+    height: 400px;
+}
+
+.imgs img {
+    width: 1400px;
+    height: 400px;
+}
+
+#next,
+#prev {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    opacity: 0.6;
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+}
+
+#next {
+    right: 20px;
+}
+
+#prev {
+    left: 20px;
+}
+
+#prev:hover,
+#next:hover {
+    opacity: 1;
+}
+
+#dots {
+    position: absolute;
+    bottom: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+#dots li {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.2;
+    margin: 0 5px;
+}
+
+.number {
+    width: 33px;
+    height: 46px;
+    margin-right: 10px;
+    text-align: center;
+}

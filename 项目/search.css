@@ -1,0 +1,243 @@
+.search-top {
+    height: 246px;
+    background: url(https://h5static.kuwo.cn/www/kw-www/img/searchBg.07b12b9.png)no-repeat center center;
+}
+
+.search-main {
+    position: relative;
+    height: 246px;
+}
+
+.search-inp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 54px;
+    line-height: 54px;
+    font-size: 14px;
+    width: 720px;
+    outline: none;
+    border: none;
+    text-indent: 20px;
+    background: #F5F5F5;
+}
+
+.search-list-top {
+    display: flex;
+    align-items: flex-end;
+    height: 30px;
+    margin-top: 43px;
+    margin-bottom: 42px;
+    font-size: 14px;
+}
+
+.search-list-top h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-right: 40px;
+}
+
+.search-list-top .top-list {
+    display: flex;
+}
+
+.search-list-top .top-list li {
+    height: 20px;
+    line-height: 20px;
+    margin-right: 34px;
+    font-weight: 300;
+    color: #333;
+    cursor: pointer;
+}
+
+/*  */
+.main-btns {
+    margin-top: 23px;
+    margin-bottom: 40px;
+}
+
+.main-btns button {
+    outline: none;
+    border: none;
+    margin-right: 10px;
+}
+
+.main-btns button:nth-child(1) {
+    width: 150px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: #FFE12C;
+    font-size: 16px;
+}
+
+.main-btns button:nth-child(1) i {
+    margin-right: 10px;
+}
+
+.main-btns button:nth-child(2) {
+    width: 117.5px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: #F2F2F2;
+    font-size: 16px;
+}
+
+.main-btns button:nth-child(3) {
+    width: 117px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: #F2F2F2;
+    font-size: 16px;
+}
+
+.main-btns i {
+    font-size: 18px;
+}
+
+.tab1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+}
+
+.tab1 li {
+    display: flex;
+    width: 1400px;
+    height: 70px;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.tab1 li:hover {
+    background-color: #F5F5F5;
+}
+
+.tab1 li:nth-child(2n+1) {
+    background-color: #FAFAFA;
+}
+
+.tab1 li:nth-child(1) {
+    height: 46px;
+    background-color: #FAFAFA;
+    line-height: 46px;
+}
+
+.tab1 li p:nth-child(1) {
+    width: 184px;
+    padding-left: 30px;
+}
+
+.tab1 li p:nth-child(2) {
+    width: 395px;
+}
+
+.tab1 li p:nth-child(3) {
+    width: 336px;
+}
+
+.tab1 li p:nth-child(4) {
+    width: 402px;
+}
+
+.tab1 li p:nth-child(5) {
+    width: 50px;
+}
+
+.tab1 img {
+    width: 54px;
+    height: 54px;
+    margin-left: 35px;
+    vertical-align: middle;
+}
+
+.wrap ul {
+    display: none;
+}
+
+.tab2,
+.tab3,
+.tab4,
+.tab5 {
+    overflow: hidden;
+}
+
+.tab2 li {
+    float: left;
+    width: 15%;
+    margin-right: 70px;
+}
+
+.tab2 li img {
+    width: 210px;
+    height: 210px;
+}
+
+.tab2 li p:nth-child(1),
+.tab3 li p:nth-child(1),
+.tab4 li p:nth-child(1),
+.tab5 li p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.tab5 li p:nth-child(1) {
+    text-align: center;
+}
+
+.tab5 li p:nth-child(2) {
+    text-align: center;
+}
+
+.tab2 li p:nth-child(2),
+.tab3 li p:nth-child(2),
+.tab4 li p:nth-child(2),
+.tab5 li p:nth-child(2) {
+    color: #999;
+    font-weight: 300;
+    margin-top: 11px;
+    margin-bottom: 26px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.tab3 li {
+    float: left;
+    width: 18.85%;
+    margin-right: 1.42%;
+}
+
+.tab3 li img {
+    width: 264px;
+    height: 156px;
+}
+
+.tab4 li {
+    float: left;
+    width: 18.85%;
+    margin-right: 1.42%;
+}
+
+.tab5 li {
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 47px;
+}
+
+.tab5 li img {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+
+.tab4 li img {
+    width: 264px;
+    height: 264px;
+}

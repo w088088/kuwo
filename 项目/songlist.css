@@ -1,0 +1,62 @@
+.selectlist {
+    display: flex;
+    margin-top: 38px;
+    margin-bottom: 28px;
+}
+
+.selectlist a {
+    font-size: 14px;
+    color: #333;
+}
+
+.selectlist h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+.selectlist ul {
+    display: flex;
+    align-items: flex-end;
+}
+
+.selectlist ul li {
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.uls {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -26px;
+}
+
+.uls li {
+    width: 263px;
+    height: 315px;
+    margin-bottom: 26px;
+    margin-right: 1.1%;
+    width: 18.85%;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.uls li img {
+    width: 100%;
+}
+
+.uls li p:nth-child(2) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.uls li p:nth-child(3) {
+    margin-top: 10px;
+}
